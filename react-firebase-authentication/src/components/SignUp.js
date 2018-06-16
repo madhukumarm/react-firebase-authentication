@@ -33,7 +33,7 @@ class SignUpForm extends Component {
 
 	onSubmit = (event) => {
 
-		event.preventDefault();
+		
 		const{
 			username,
 			email,
@@ -56,7 +56,7 @@ class SignUpForm extends Component {
 		// console.log("The form was submitted with following data");
 		// console.log(this.state);	
 
-		
+		event.preventDefault();
 
 		
 	}
